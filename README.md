@@ -18,15 +18,8 @@ Il contient des données sur :
 - Les émissions de CO₂ par pays et par année
 
 Ces données ont été extraites et nettoyées pour servir de base à l’entraînement d’un modèle de régression.  
-Elles s’inscrivent dans le cadre de l’Objectif de Développement Durable (ODD) 13 : **Action pour le climat**.
-
- [Voir le fichier co2_plp.csv](data/co2_plp.csv)
-- Les émissions de CO₂ par pays et par année
-- La population
-- Le produit intérieur brut (PIB)
-- La consommation énergétique
-- D’autres indicateurs liés au climat
-
+ 
+[Voir le fichier co2_plp.csv](data/co2_plp.csv)
 Ces variables permettent d’entraîner un modèle de régression pour prédire les émissions de CO₂, dans le cadre de l’Objectif de Développement Durable (ODD) 13 : 
 **Action pour le climat**.
 
