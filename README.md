@@ -47,10 +47,11 @@ ODD_Plp/
 
 Le projet prendra en compte les biais potentiels liés aux données incomplètes ou inégales entre pays. Une attention particulière sera portée à la transparence, à l’équité et à l’impact social du modèle.
 
-## Modèle entraîné
+ ## Modèle entraîné
 
 Le modèle de régression linéaire a été entraîné avec succès pour prédire les émissions de CO₂.  
-Il a été sauvegardé sous le nom `carbon_model.pkl` et peut être réutilisé pour des prédictions futures.
+Le modèle entraîné est stocké dans `scripts/carbon_model.pkl`.  
+Il peut être rechargé pour effectuer des prédictions sans réentraîner le modèle.
 
  ## Évaluation du modèle
 
