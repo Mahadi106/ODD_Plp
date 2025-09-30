@@ -52,6 +52,10 @@ Le projet prendra en compte les biais potentiels liés aux données incomplètes
 Le modèle de régression linéaire a été entraîné avec succès pour prédire les émissions de CO₂.  
 Le modèle entraîné est stocké dans `scripts/carbon_model.pkl`.  
 Il peut être rechargé pour effectuer des prédictions sans réentraîner le modèle.
+# Pour l'importer
+import joblib
+model = joblib.load('scripts/carbon_model.pkl')
+
 
  ## Évaluation du modèle
 
