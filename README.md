@@ -10,12 +10,21 @@ Ce projet s’inscrit dans le cadre de l’**Objectif de Développement Durable 
 - *Algorithmes envisagés* : Régression linéaire, forêt aléatoire, XGBoost
 - *Objectif du modèle* : Prédire une variable continue (émissions de CO₂)
 
-## Données utilisées
+ ## Données utilisées
 
-Les données seront extraites de sources ouvertes telles que :
-- [Banque mondiale – Indicateurs climatiques](https://databank.worldbank.org/source/climate-data)
-- [Base ODD de l’ONU](https://unstats.un.org/sdgs)
-- [Kaggle – CO₂ Emissions Dataset](https://www.kaggle.com/datasets)
+Les données utilisées dans ce projet proviennent de la plateforme [Our World in Data](https://ourworldindata.org/co2-dataset-sources).  
+Le fichier principal (`carbon_plp.csv`) contient des informations sur :
+
+- Les émissions de CO₂ par pays et par année
+- La population
+- Le produit intérieur brut (PIB)
+- La consommation énergétique
+- D’autres indicateurs liés au climat
+
+Ces variables permettent d’entraîner un modèle de régression pour prédire les émissions de CO₂, dans le cadre de l’Objectif de Développement Durable (ODD) 13 : 
+**Action pour le climat**.
+
+Le fichier est stocké dans le dossier `data/` du dépôt GitHub.
 
 ## Outils et technologies
 
@@ -24,14 +33,37 @@ Les données seront extraites de sources ouvertes telles que :
 - *Plateforme* : Google Colab  
 - *Optionnel* : Streamlit pour une démo interactive
 
-## Structure du projet
+ ## Structure du projet
 
- 
-ODD_Plp/ │ ├── data/                  # Données brutes et nettoyées ├── notebooks/             # Notebook principal (Colab ou Jupyter) ├── scripts/               # Scripts Python (.py) ├── images/                # Graphiques et visualisations ├── README.md              # Ce fichier └── requirements.txt       # Librairies nécessaires
- 
+ODD_Plp/
+│
+├── data/                  # Données brutes et nettoyées  
+├── notebooks/             # Notebook principal (Colab ou Jupyter)  
+├── scripts/               # Scripts Python (.py)  
+├── images/                # Graphiques et visualisations  
+├── README.md              # Ce fichier  
+└── requirements.txt       # Librairies nécessaires
+
 ## Réflexion éthique
 
 Le projet prendra en compte les biais potentiels liés aux données incomplètes ou inégales entre pays. Une attention particulière sera portée à la transparence, à l’équité et à l’impact social du modèle.
+
+## Modèle entraîné
+
+Le modèle de régression linéaire a été entraîné avec succès pour prédire les émissions de CO₂.  
+Il a été sauvegardé sous le nom `carbon_model.pkl` et peut être réutilisé pour des prédictions futures.
+
+ ## Évaluation du modèle
+
+- *MSE* : 46 324.67  
+- *R²* : 0.859
+
+Le modèle explique environ **86% de la variance** des émissions de CO₂, ce qui montre une bonne capacité prédictive.  
+L’erreur quadratique moyenne indique que les écarts entre les prédictions et les valeurs réelles restent raisonnables à l’échelle globale.
+
+## Visualisations :
+Des graphiques ont été générés pour comparer les prédictions aux valeurs réelles et analyser les erreurs.
+
 
 ## Auteur
 
