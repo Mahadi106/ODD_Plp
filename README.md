@@ -63,6 +63,11 @@ L’erreur quadratique moyenne indique que les écarts entre les prédictions et
 ## Visualisations :
 Des graphiques ont été générés pour comparer les prédictions aux valeurs réelles et analyser les erreurs.
 
+## Notebook principal
+
+Le notebook `carbon_plp.ipynb` contient tout le code d’entraînement, d’évaluation et de visualisation du modèle.  
+[Voir le notebook](notebooks/carbon_plp.ipynb)
+
 
 ## Auteur
 
