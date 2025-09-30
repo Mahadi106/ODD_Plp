@@ -10,11 +10,17 @@ Ce projet s’inscrit dans le cadre de l’**Objectif de Développement Durable 
 - *Algorithmes envisagés* : Régression linéaire, forêt aléatoire, XGBoost
 - *Objectif du modèle* : Prédire une variable continue (émissions de CO₂)
 
- ## Données utilisées
+  ## Données utilisées
 
-Les données utilisées dans ce projet proviennent de la plateforme [Our World in Data](https://ourworldindata.org/co2-dataset-sources).  
-Le fichier principal (`carbon_plp.csv`) contient des informations sur :
+Le fichier principal utilisé dans ce projet est `co2_plp.csv`, situé dans le dossier `data/`.  
+Il contient des données sur :
 
+- Les émissions de CO₂ par pays et par année
+
+Ces données ont été extraites et nettoyées pour servir de base à l’entraînement d’un modèle de régression.  
+Elles s’inscrivent dans le cadre de l’Objectif de Développement Durable (ODD) 13 : **Action pour le climat**.
+
+ [Voir le fichier co2_plp.csv](data/co2_plp.csv)
 - Les émissions de CO₂ par pays et par année
 - La population
 - Le produit intérieur brut (PIB)
