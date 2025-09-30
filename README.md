@@ -73,6 +73,11 @@ Des graphiques ont été générés pour comparer les prédictions aux valeurs r
 Le notebook `carbon_plp.ipynb` contient tout le code d’entraînement, d’évaluation et de visualisation du modèle.  
 [Voir le notebook](notebooks/carbon_plp.ipynb)
 
+## Fichiers clés
+
+- [Notebook d'entraînement](notebooks/carbon_plp.ipynb)
+- [Modèle sauvegardé](scripts/carbon_model.pkl)
+- [Visualisation des prédictions](images/co2_predictions.png)
 
 ## Auteur
 
