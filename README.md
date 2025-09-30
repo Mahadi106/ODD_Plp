@@ -39,12 +39,12 @@ Le fichier est stocké dans le dossier `data/` du dépôt GitHub.
 - *Plateforme* : Google Colab  
 - *Optionnel* : Streamlit pour une démo interactive
 
- ## Structure du projet
+  ## Structure du projet
 
 ODD_Plp/
 │
 ├── data/                  # Données brutes et nettoyées  
-├── notebooks/             # Notebook principal (Colab ou Jupyter)  
+├── notebooks/             # Notebook principal : carbon_plp.ipynb  
 ├── scripts/               # Scripts Python (.py)  
 ├── images/                # Graphiques et visualisations  
 ├── README.md              # Ce fichier  
